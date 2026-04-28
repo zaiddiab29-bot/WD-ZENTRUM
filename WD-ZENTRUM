@@ -1,0 +1,86 @@
+{
+  "name": "wd-zentrum-reinigung",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  }
+}export default function Home() {
+  return (
+    <div style={{ fontFamily: "Arial" }}>
+      
+      {/* HEADER */}
+      <header style={{ background: "#1e5eff", color: "white", padding: "20px" }}>
+        <h1>WD Zentrum Reinigung Team</h1>
+      </header>
+
+      {/* HERO */}
+      <section style={{ padding: "40px", background: "#f0f6ff" }}>
+        <h2>Sauberkeit auf höchstem Niveau</h2>
+        <p>
+          Unsere Ziel ist Qualität, Zuverlässigkeit und Sauberkeit auf höchstem Niveau zu liefern, 
+          individuell abgestimmt auf ihre Bedürfnisse.
+        </p>
+      </section>
+
+      {/* LEISTUNGEN */}
+      <section style={{ padding: "40px" }}>
+        <h2>Unsere Leistungen</h2>
+        <ul>
+          <li>Büroreinigung</li>
+          <li>Haushaltsreinigung</li>
+          <li>Fensterreinigung</li>
+          <li>Treppenhausreinigung</li>
+          <li>Bauendreinigung</li>
+        </ul>
+      </section>
+
+      {/* BELIEBTE BESTELLUNGEN */}
+      <section style={{ padding: "40px", background: "#f0f6ff" }}>
+        <h2>Beliebte Bestellungen</h2>
+        <ul>
+          <li>Büro Komplett Reinigung Paket</li>
+          <li>Haus Frühjahrsputz</li>
+          <li>Fenster Premium Reinigung</li>
+        </ul>
+      </section>
+
+      {/* KONTAKT */}
+      <section style={{ padding: "40px" }}>
+        <h2>Kontakt</h2>
+        <p>📍 Adresse: WD Zentrum Reinigung Team, Nordrhein-Westfalen, Deutschland</p>
+        <p>📧 Email: info@wd-zentrum.de</p>
+        <p>📞 Telefon: +49 XXX XXXXXXXX</p>
+      </section>
+
+      {/* TICKET */}
+      <section style={{ padding: "40px", background: "#f0f6ff" }}>
+        <h2>Ticket erstellen</h2>
+
+        <input placeholder="Name" style={{ display: "block", margin: "10px 0", padding: "10px", width: "300px" }} />
+        <input placeholder="Email" style={{ display: "block", margin: "10px 0", padding: "10px", width: "300px" }} />
+        <textarea placeholder="Nachricht" style={{ display: "block", margin: "10px 0", padding: "10px", width: "300px", height: "100px" }} />
+
+        <button style={{ padding: "10px 20px", background: "#1e5eff", color: "white", border: "none" }}>
+          Absenden
+        </button>
+      </section>
+
+      {/* FOOTER */}
+      <footer style={{ background: "#1e5eff", color: "white", padding: "20px", textAlign: "center" }}>
+        © 2026 WD Zentrum Reinigung Team
+      </footer>
+
+    </div>
+  );
+}body {
+  margin: 0;
+  padding: 0;
+}
