@@ -1,4 +1,7 @@
-{
+WD-ZENTRUM/
+ ├── package.json
+ ├── pages/
+ │    └── index.js
   "name": "wd-zentrum-reinigung",
   "version": "1.0.0",
   "private": true,
